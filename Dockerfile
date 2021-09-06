@@ -10,3 +10,6 @@ RUN apt-get update &&\
 RUN ["apt-get", "install", "-y", "python3", "python3-pip"]
 RUN ["pip3", "install", "beets"]
 RUN ["beet", "--version"]
+
+ENV BEETSDIR="/beetconfig"
+VOLUME /beetconfig

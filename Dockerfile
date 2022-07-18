@@ -1,4 +1,4 @@
-ARG LIDARR_VERSION=version-0.8.1.2135
+ARG LIDARR_VERSION=version-1.0.2.2592
 FROM linuxserver/lidarr:${LIDARR_VERSION}
 
 LABEL maintainer="Deepak <dmallubhotla+github@gmail.com>" \
